@@ -6,6 +6,7 @@ services:
       - "3000:3000"
     networks:
       - mynetwork
-  networks:
-    mynetwork:
-      driver: bridge    
+
+networks:
+  mynetwork:
+    driver: bridge
